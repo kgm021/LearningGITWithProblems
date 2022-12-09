@@ -1,0 +1,12 @@
+What 
+    Head is pointing to commit it rather than a branch
+    Any changes that are done in this state are only present as long as we are in the branch
+How to get in to Detached head state
+    1. When  commit changes are made to repo back to back without PUshing
+    2. When history exist in other instance
+How to resolve
+    git config advice.detached head false
+
+Note:- You can also use the –global modifier if you want the change to apply to every repository and not only the current one.
+
+https://www.cloudbees.com/blog/git-detached-head
